@@ -228,7 +228,7 @@ class FichaController extends Controller
             $inventario = 'NO HAY DATOS PARA MOSTRAR';
         }
 
-        $html = '<img src="data:image/svg+xml;base64,'.base64_encode($sql->fic_svg).'"  width="500" height="400" />';
+        $html = '<img style="text-align: center" src="data:image/svg+xml;base64,'.base64_encode($sql->fic_svg).'"  width="450" height="320" />';
         
         if ($sql->count() > 0) 
         {

@@ -14,32 +14,7 @@ class InventarioVehiculoSeeder extends Seeder
     public function run()
     {
         DB::table('tblinventariovehiculo_ive')->insert([
-            'ive_descripcion' => 'TARJETA DE PROPIEDAD',
-            'created_at'   => Carbon::now(),
-            'updated_at'   => Carbon::now()
-        ]);
-        DB::table('tblinventariovehiculo_ive')->insert([
-            'ive_descripcion' => 'REVISION TÉCNICA',
-            'created_at'   => Carbon::now(),
-            'updated_at'   => Carbon::now()
-        ]);
-        DB::table('tblinventariovehiculo_ive')->insert([
-            'ive_descripcion' => 'PERMISO DE LUNAS',
-            'created_at'   => Carbon::now(),
-            'updated_at'   => Carbon::now()
-        ]);
-        DB::table('tblinventariovehiculo_ive')->insert([
-            'ive_descripcion' => 'SOAT',
-            'created_at'   => Carbon::now(),
-            'updated_at'   => Carbon::now()
-        ]);
-        DB::table('tblinventariovehiculo_ive')->insert([
-            'ive_descripcion' => 'RADIO',
-            'created_at'   => Carbon::now(),
-            'updated_at'   => Carbon::now()
-        ]);
-        DB::table('tblinventariovehiculo_ive')->insert([
-            'ive_descripcion' => 'CD/CAJA',
+            'ive_descripcion' => 'SUNROOF',
             'created_at'   => Carbon::now(),
             'updated_at'   => Carbon::now()
         ]);
@@ -54,32 +29,12 @@ class InventarioVehiculoSeeder extends Seeder
             'updated_at'   => Carbon::now()
         ]);
         DB::table('tblinventariovehiculo_ive')->insert([
-            'ive_descripcion' => 'PARASOLES',
+            'ive_descripcion' => 'ESPEJOS ELECTRO. DER',
             'created_at'   => Carbon::now(),
             'updated_at'   => Carbon::now()
         ]);
         DB::table('tblinventariovehiculo_ive')->insert([
-            'ive_descripcion' => 'CLAXON',
-            'created_at'   => Carbon::now(),
-            'updated_at'   => Carbon::now()
-        ]);
-        DB::table('tblinventariovehiculo_ive')->insert([
-            'ive_descripcion' => 'PLUMILLAS',
-            'created_at'   => Carbon::now(),
-            'updated_at'   => Carbon::now()
-        ]);
-        DB::table('tblinventariovehiculo_ive')->insert([
-            'ive_descripcion' => 'RELOJ',
-            'created_at'   => Carbon::now(),
-            'updated_at'   => Carbon::now()
-        ]);
-        DB::table('tblinventariovehiculo_ive')->insert([
-            'ive_descripcion' => 'SEGURIDAD DE RUEDAS',
-            'created_at'   => Carbon::now(),
-            'updated_at'   => Carbon::now()
-        ]);
-        DB::table('tblinventariovehiculo_ive')->insert([
-            'ive_descripcion' => 'ESPEJOS',
+            'ive_descripcion' => 'ESPEJOS ELECTRO. IZQ',
             'created_at'   => Carbon::now(),
             'updated_at'   => Carbon::now()
         ]);
@@ -89,42 +44,307 @@ class InventarioVehiculoSeeder extends Seeder
             'updated_at'   => Carbon::now()
         ]);
         DB::table('tblinventariovehiculo_ive')->insert([
-            'ive_descripcion' => 'ALARMA',
+            'ive_descripcion' => 'CONTROL DE GARAGE',
             'created_at'   => Carbon::now(),
             'updated_at'   => Carbon::now()
         ]);
         DB::table('tblinventariovehiculo_ive')->insert([
-            'ive_descripcion' => 'DIRECCIONALES',
+            'ive_descripcion' => 'DIFUSOR DE AGUA DER',
             'created_at'   => Carbon::now(),
             'updated_at'   => Carbon::now()
         ]);
         DB::table('tblinventariovehiculo_ive')->insert([
-            'ive_descripcion' => 'LLANTA DE REPUESTO',
+            'ive_descripcion' => 'DIFUSOR DE AGUA IZQ',
             'created_at'   => Carbon::now(),
             'updated_at'   => Carbon::now()
         ]);
         DB::table('tblinventariovehiculo_ive')->insert([
-            'ive_descripcion' => 'EMBLEMAS',
+            'ive_descripcion' => 'A/C',
             'created_at'   => Carbon::now(),
             'updated_at'   => Carbon::now()
         ]);
         DB::table('tblinventariovehiculo_ive')->insert([
-            'ive_descripcion' => 'TAPA DE GASOLINA',
+            'ive_descripcion' => 'BOCINA',
             'created_at'   => Carbon::now(),
             'updated_at'   => Carbon::now()
         ]);
         DB::table('tblinventariovehiculo_ive')->insert([
-            'ive_descripcion' => 'GATA/PALANCA',
+            'ive_descripcion' => 'LUZ ALTA',
             'created_at'   => Carbon::now(),
             'updated_at'   => Carbon::now()
         ]);
         DB::table('tblinventariovehiculo_ive')->insert([
-            'ive_descripcion' => 'LLAVE DE RUEDA',
+            'ive_descripcion' => 'LUZ BAJA',
             'created_at'   => Carbon::now(),
             'updated_at'   => Carbon::now()
         ]);
         DB::table('tblinventariovehiculo_ive')->insert([
-            'ive_descripcion' => 'HERRAMIENTAS',
+            'ive_descripcion' => 'LUZ INTERIOR',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'PARLANTES',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'PISOS ALFOMBRA',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'PISOS GOMA',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'POSA VASOS',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'RADIO',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'RELOJ',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'LLAVE',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'LLAVERO',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'C. DE SERVICIOS',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'MANUAL',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'ESTUCHE DE CUERO',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'MANIJA, CONDERA, PESTILLOS',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'EMBLEMA ESTRIBO CROMO',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'CAJA CD',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'CD EN DISPLAY DE AUTORADIO',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'SWICH ELEVALUNAS',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'PARABRISAS P',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'PARABRISAS Q',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'PLUMILLAS',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'BRAZOS',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'BATERIA',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'SEG',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'TAPA',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'TAPA RADIADOR',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'TAPA TH',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'PARRILLA',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'NEBLINEROS DER',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'NEBLINEROS IZQ',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'MASCARAS',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'EMBLEMAS DEL',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'EMBLEMAS TRAS',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'PLACAS DEL',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'PLACAS TRAS',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'AROS DE ALEACION',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'TAPA CUBOS',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'TAPA VALV',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'LLANTA DAÑADA',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'LLANTA PICADA',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'ESCARPINES',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'TAPA DE COMBUSTIBLE',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'ANTENA',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'ALERON DE MALETERA',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'EXTINTOR',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'ALICATE',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'DESARMADOR',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'LLAVES 12-13',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'LLAVES 10-18',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'GANCHO REMOLQUE',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'SEG. DE RUEDAS',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'GATA',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'PALANCA',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'TRIANGULO DE SEGURIDAD',
+            'created_at'   => Carbon::now(),
+            'updated_at'   => Carbon::now()
+        ]);
+        DB::table('tblinventariovehiculo_ive')->insert([
+            'ive_descripcion' => 'BOTIQUIN',
             'created_at'   => Carbon::now(),
             'updated_at'   => Carbon::now()
         ]);

@@ -23,7 +23,7 @@
         <table>
             <tbody>
                 <tr>
-                    <td rowspan="4">
+                    <td rowspan="4" style="width: 34%">
                         <font style="font-style: bold; font-size: 1.8em">{{ $empresa->emp_titulo }}</font><br>
                         {{ $empresa->emp_direccion }}<br>
                         Teléfono: {{ $empresa->emp_telefono }}<br>
@@ -31,19 +31,19 @@
                         Website: {{ $empresa->emp_web }}<br>
                         Horario: {{ $empresa->emp_horario }}<br>
                     </td>
-                    <td style="text-align: center;font-size: 1.01em;">Marca <font class="textoDescripcion" style="padding: 10px;">{{ $sql->fic_marca }}</font></td>
-                    <td colspan="2" style="text-align: center;font-size: 1.01em;">Año <font class="textoDescripcion" style="padding: 10px">{{ $sql->fic_anio }}</font></td>
-                    <td class="numOrden" style="text-align: center" colspan="3">N°OT {{ str_pad($sql->fic_ordentrabajo,  6, "0",STR_PAD_LEFT) }}</td>
+                    <td style="text-align: center;font-size: 1.01em; width: 21%">Marca <font class="textoDescripcion" style="padding: 5px;">{{ $sql->fic_marca }}</font></td>
+                    <td style="text-align: center;font-size: 1.01em; width: 22%">Año <font class="textoDescripcion" style="padding: 5px">{{ $sql->fic_anio }}</font></td>
+                    <td colspan="2" class="numOrden" style="text-align: center; width: 23%" colspan="3">N°OT {{ str_pad($sql->fic_ordentrabajo,  6, "0",STR_PAD_LEFT) }}</td>
                 </tr>
                 <tr>
-                    <td style="text-align: center;font-size: 1.01em;">Modelo <font class="textoDescripcion" style="padding: 10px">{{ $sql->fic_modelo }}</font></td>
-                    <td colspan="2" style="text-align: center;font-size: 1.01em;">Km. <font class="textoDescripcion" style="padding: 10px">{{ $sql->fic_km }}</font></td>
-                    <td style="text-align: center;font-size: 1.01em;">Placa <font class="textoDescripcion" style="padding: 10px">{{ $sql->fic_placa }}</font></td>
+                    <td style="text-align: center;font-size: 1.01em;">Modelo <font class="textoDescripcion" style="padding: 5px">{{ $sql->fic_modelo }}</font></td>
+                    <td style="text-align: center;font-size: 1.01em;">Km. <font class="textoDescripcion" style="padding: 5px">{{ $sql->fic_km }}</font></td>
+                    <td colspan="2" style="text-align: center;font-size: 1.01em;">Placa <font class="textoDescripcion" style="padding: 5px">{{ $sql->fic_placa }}</font></td>
                 </tr>
                 <tr>
                     <td style="text-align: left;font-size: 1.01em;">@if($sql->fic_tarjetapropiedad) Tarj Propiedad (x) @else Tarj Propiedad ( ) @endif</td>
                     <td style="text-align: left;font-size: 1.01em;">@if($sql->fic_soat) SOAT (x) @else SOAT ( ) @endif</td>
-                    <td colspan="2" style="text-align: left;font-size: 1.01em;">Fecha Ven: {{ ($sql->fic_fechavencimiento) ? $sql->fic_fechavencimiento : '../../....' }}</td>
+                    <td colspan="2" style="text-align: left;font-size: 1.01em;">Fecha Ven: {{ ($sql->fic_fechavencimiento) ? \Carbon\Carbon::parse($sql->fic_fechavencimiento)->format('d/m/Y') : '../../....' }}</td>
                 </tr>
                 <tr>
                     <td></td>
@@ -51,8 +51,8 @@
                 </tr>
                 <tr>
                     <td colspan="2" class="bordeBajo" style="font-size: 1.01em;">Nombre: {{ $sql->persona->nombreCompleto }}</td>
-                    <td colspan="2" class="bordeBajo" style="font-size: 1.01em;">Teléfono: {{ $sql->persona->per_telefonos }}</td>
-                    <td colspan="2" class="bordeBajo" style="font-size: 1.01em;">Fecha: {{ $sql->fic_fecha }}</td>
+                    <td colspan="1" class="bordeBajo" style="font-size: 1.01em;">Teléfono: {{ $sql->persona->per_telefonos }}</td>
+                    <td colspan="2" class="bordeBajo" style="font-size: 1.01em;">Fecha: {{ \Carbon\Carbon::parse($sql->fic_fecha)->format('d/m/Y') }}</td>
                 </tr>
             </tbody>
         </table>
@@ -89,8 +89,10 @@
                     <td colspan="8">{!! $sql->fic_trabajosarealizar !!}</td>
                 </tr>
                 <tr>
-                    <td colspan="4"></td>
-                    <td colspan="4"><img src="{{ $sql->fic_firma }}" width="150px" height="90px"></td>
+                    <td style="text-align: center;" colspan="8"><img src="{{ $sql->fic_firma }}" width="150px" height="90px"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;" colspan="8"><font style="border-top: 1px solid #000000; margin-top: 5px">{{ $sql->persona->nombreCompleto }}</font></td>
                 </tr>
             </tbody>
         </table>
